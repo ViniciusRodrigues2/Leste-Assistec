@@ -1,0 +1,143 @@
+@charset "UTF_8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(104, 104, 104);
+    height: 100vh;
+}
+
+#object-principal {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.438), rgba(0, 161, 0, 0.137)), url('img/fundo-world.jpg');
+    background-size: cover;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.principal-destaque {
+    display: inline-block;
+    background-color: #0e0e0ea4;
+
+}
+
+.principal-destaque h1 {
+    text-align: center;
+    color: cornsilk;
+    padding: 20px 40px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #030303;
+    text-transform: uppercase;
+}
+
+#object-principal p {
+    color: cornsilk;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+#text-inform{
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    color: thistle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-indent: 22px;
+    margin-top: 10%;
+}
+#content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.753)),url('img/fundo-image-content.jpg');
+    background-size: cover;
+}
+
+#content .bolhas {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    background-color: lavender;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid dimgray;
+    transition: all .4s ease-in-out;
+}
+
+#content .bolhas:hover {
+    box-shadow: 2px 4px 10px #1f1f1fab, -3px -4px 11px #2c2c2c91;
+    transform: rotate(2.5deg);
+}
+
+#content .bolhas img {
+    width: 100px;
+    border-radius: 100%;
+}
+form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form legend{
+    color: dimgrey;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+form input,form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #a7a7a7;
+}
+form #btn{
+    padding: 15px;
+    background-color: rgb(16, 75, 30);
+    color: gainsboro;
+    font-size: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+h2{
+    color: white;
+    position: relative;
+    top: 5px;
+    font-family: monospace;
+    font-size: 3em;
+    text-align: center;
+}
+#rodape{
+    text-align: center;
+    color: rgb(137, 255, 156);
+    background-color: rgba(0, 0, 0, 0.829);
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}

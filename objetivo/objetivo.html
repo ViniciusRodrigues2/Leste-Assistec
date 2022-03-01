@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leste assistec | Objetivos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposive.css">
+</head>
+
+<body onload="hell()">
+    <header id="object-principal">
+        <div class="principal-destaque">
+            <h1>Objetivos</h1>
+        </div>
+        <p>Leste Assistec</p>
+        <p id="horas"></p>
+    </header>
+    <main id="content">
+        <section class="obeject-text">
+            <blockquote id="text-inform">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam quia, alias illo recusandae
+                ullam delectus nisi minus cumque quos eius vitae fugiat perferendis explicabo obcaecati dolores quas in
+                porro.
+            </blockquote>
+        </section>
+        <section class="bolhas">
+            <img src="img/thumbi.jpg" alt="pessoa 1">
+            <h3>Roberto Jorge</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloribus odit, fuga ullam, dolore
+                consequuntur, dolor qui soluta suscipit dicta aliquid nostrum? Iusto, atque ullam. Nisi, delectus amet.
+                Labore, necessitatibus!</p>
+        </section>
+        <section class="bolhas">
+            <img src="img/thu.jpg" alt="pessoa 2">
+            <h3>Maria Fernanda</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eaque quibusdam officia corrupti hic
+                tempora? Amet cupiditate corporis totam quasi veritatis! Enim praesentium tenetur deserunt possimus,
+                sunt amet doloribus quam.</p>
+        </section>
+        <section class="bolhas">
+            <img src="img/man.jpg" alt="pessoa 3">
+            <h3>Gabriel martiz</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur ratione eligendi voluptate
+                omnis debitis distinctio nemo fugit quia optio vero ducimus repellat, dolorum nihil rem voluptatem
+                laborum. Necessitatibus, numquam!</p>
+        </section>
+        <section class="bolhas">
+            <img src="img/thumbi-pe.jpg" alt="pessoa 4">
+            <h3>Alissa Alves</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, enim accusamus doloremque ad omnis
+                pariatur at maiores quis consectetur perferendis libero. Omnis ipsam placeat assumenda quis saepe
+                deleniti eaque culpa!</p>
+        </section>
+        <h2>Ficou Com alguma Duvida?</h2>
+        <form action="https://api.staticforms.xyz/submit" method="POST" target="_blank">
+            <input type="hidden" name="accessKey" value="31112540-5496-4a77-8871-1ec192d3057f">
+                <legend>Contato</legend>
+                <label for="nome-user">nome:</label>
+                <input type="text" name="name" id="nome-user" placeholder="Nome" required >
+                    <label for="duvida">Duvida:</label>
+                <input type="text" name="subject" id="duvida" placeholder="digite a Duvida" required>
+                    <label for="Escreva">Escreva Abaixo:</label>
+                <textarea name="message" id="Escreva" cols="50" rows="10" placeholder="Escreva o Problema/Dúvida" required
+                        role="none"></textarea>
+                <input type="submit" value="Mandar" id="btn" onclick="clicar()">
+        </form>
+    </main>
+    <footer id="rodape">
+        <p>&copy;leste Assistec</p>
+    </footer>
+</body>
+<script src="form.js"></script>
+</html>

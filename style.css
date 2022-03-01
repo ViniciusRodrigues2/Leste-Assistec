@@ -1,0 +1,121 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to left,rgba(0, 54, 17, 0.24),rgba(0, 0, 24, 0.486),rgba(0, 0, 0, 0.404)),url('../img/celular-bg.jpeg');
+    background-position: right right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    background-color: rgba(33, 33, 34, 0.363);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 60px;
+}
+.container i #logo{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: 'Share Tech',Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.container i #logo span{
+    color: rgb(33, 145, 63);
+    padding: 10px 20px;
+    font-family: 'Share Tech',Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.container #menu-brom li{
+    display: inline-block;
+    list-style: none;
+}
+.container #menu-brom li a{
+    color: rgb(57, 207, 132);
+    font-size: 18px;
+    padding: 10px 12px;
+    margin-right: 20px;
+    transition: all 400ms ease-in-out;
+    text-decoration: none;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+.container #menu-brom li a:hover{
+    background-color: rgba(6, 151, 6, 0.336);
+    color: rgba(255, 255, 255, 0.623);
+}
+.content-principal .home-type-web{
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+.check{
+    display: none;
+}
+.content-principal .home-type-web h1{
+    padding-bottom: 30px;
+    margin-top: 150px;
+    color: thistle;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+#botao-Get{
+    color: rgb(189, 189, 189);
+    padding: 20px 50px;
+    border: 1px solid rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 500ms ease-in-out;
+    font-size: 24px;
+}
+.content-principal .home-type-web a:hover{
+    background-color: rgba(22, 138, 70, 0.603);
+    cursor: pointer;
+    color: snow;
+}
+.rodape{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+.rodape li{
+    display: inline-block;
+    margin-top: 140px;
+}
+.rodape li a img{
+    width: 30px;
+    position: relative;
+    top: 8px;
+    right: 2%;
+    color: aquamarine;
+}
+.rodape li a{
+    color: rgba(238, 238, 238, 0.603);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    transition: all 450ms ease-in-out;
+}
+.rodape li a:hover{
+    text-decoration: underline;
+    color: rgb(0, 255, 234);
+}

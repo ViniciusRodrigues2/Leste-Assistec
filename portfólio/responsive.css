@@ -1,0 +1,96 @@
+@charset 'UTF-8';
+
+@media screen and (max-width:700px){
+    body{
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.685)),url('../img/bg-tech.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: none;
+        width: 100%;
+        height: 100%;
+    }
+    .vazia{
+        width: 300px;
+        height: 300px;
+    }
+    .header-container .header-content h1{
+       text-align: center;
+       font-size: 35px;
+       position: relative;
+       top: 0;
+       text-indent: 10px;
+   }
+   .header-container .header-content h2{
+       display: block;
+       text-align: center;
+       font-size: 20px;
+       position: relative;
+       top: 0;
+       text-indent: 30px;
+   }
+   .header-container .header-content .header-img{
+       display: block;
+       margin: 0;
+       padding: 0;
+   }
+   .header-container .header-content .header-img img{
+       width: 15%;
+       display: block;
+       position: absolute;
+       top: 1%;
+   }
+   .header-container .header-btn{
+       display: inline-block;
+       width: 100%;
+   }
+   .header-container .block-quem-sou{
+       text-align: center;
+       text-indent: 20px;
+   }
+   .conteudo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #1a1919;
+    width: 100%;
+}
+    .lojas-parceiras{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .lojas-parceiras h3{
+      padding: 20px;
+      color: darkcyan;
+      font-size: 30px;
+      text-transform: uppercase;
+  }
+    .lojas-parceiras .lojas-parceiras-icons{
+        margin: 4% 0 4% 0;
+    }
+    .lojas-parceiras a h4{
+        background-color: darkgoldenrod;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        margin: 10% 0 5% 0;
+        transition: all .3s ease-in-out;
+    }
+    .lojas-parceiras a h4:hover{
+        color: rgb(206, 206, 206);
+    }
+    .rodape-prime{
+        background-color: rgba(0, 0, 0, 0.603);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .rodape-prime #leste,.rodape-prime #code{
+        padding: 0;
+        padding: 10px;
+    }
+}

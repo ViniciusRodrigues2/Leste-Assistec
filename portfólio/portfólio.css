@@ -1,0 +1,212 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+@keyframes bloer {
+    50%{
+        background-color: rgba(1, 65, 1, 0.356);
+    }
+    100%{
+        background-color: rgba(0, 66, 104, 0.438);
+    }
+}
+body{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.685)),url('../img/bg-tech.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(1, 119, 11, 0.603);
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}
+
+.header-container{
+    display: flex;
+    padding: 40px;
+}
+.header-container .header-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-container .header-content h1{
+    display: inline-block;
+    font-size: 40px;
+    letter-spacing: 4px;
+    position: absolute;
+    left: 12%;
+    top: 7%;
+    right: 0;
+    text-transform: uppercase;
+    color: rgb(196, 196, 196);
+}
+.header-container .header-content h2{
+    display: inline-block;
+    font-size: 26px;
+    letter-spacing: 4px;
+    position: absolute;
+    left: 12%;
+    top: 12%;
+    right: 0;
+    color: #3c9151;
+}
+span{
+    color: white;
+}
+.header-container .header-content .header-img img{
+    width: 80px;
+    border-radius: 100%;
+    position: absolute;
+    left: 3%;
+    top: 8%;
+    border: 1px solid #1a1919;
+}
+.header-container .header-content .header-btn{
+    display: flex;
+    margin-right: 2rem;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+.header-container .header-content .header-btn a:nth-child(1){
+    display: flex;
+    position: relative;
+    top: -10%;
+    background-color: #0e0e0e;
+    color: snow;
+}
+.header-container .header-content .header-btn a:nth-child(2){
+    display: block;
+    position: relative;
+    top: -10%;
+    background-color: rgba(56, 255, 30, 0.445);
+    color: snow;
+    left: 2%;
+}
+.header-container .header-content .header-btn a{
+    min-width: 40px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 14rem;
+    margin-left: 1px;
+    transition: all 500ms ease-in-out;
+}
+.header-container .header-content .block-quem-sou p{
+   color: rgb(148, 148, 148);
+   text-align: justify;
+   margin-bottom: 30px;
+}
+.vazia{
+    width: 700px;
+    height: 765px;
+    z-index: -1;
+    position: absolute;
+    border-bottom-left-radius: 100%;
+    padding: 20px;
+    top: 0;
+    right: 0;
+    background-color: rgba(1, 65, 1, 0.356);
+    animation: bloer 3.5s infinite both linear alternate;
+    transition: all 400ms ease-in-out;
+}
+.conteudo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1a1919;
+}
+.conteudo-feito{
+    background-color: whitesmoke;
+    display: block;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    width: 200px;
+    border-top-left-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+.conteudo-feito:hover{
+    box-shadow: 2px 2px 10px #3a3a3a;
+}
+.conteudo-feito h3{
+    color: rgb(10, 9, 8);
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    font-weight: 900;
+}
+.conteudo-feito p{
+    border: 1px solid #1e1e1e;
+    padding: 5px 8px;
+    background-color: #0e0e0e;
+    color: azure;
+    width: 100%;
+    text-align: left;
+}
+.conteudo-feito span{
+    color: rgb(0, 59, 3);
+    background-color: #3c9151;
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+}
+.conteudo-feito img{
+    width: 150px;
+}
+.conteudo-feito .images-celular #img-vendas{
+    width: 150px;
+    height: 100px;
+}
+.lojas-parceiras{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    width: 100%;
+}
+.lojas-parceiras h3{
+    font-size: 28px;
+    color: #3c9151;
+}
+.lojas-parceiras h4{
+    color: #fff;
+}
+.lojas-parceiras a{
+    text-decoration: none;
+    color: #fff;
+}
+.lojas-parceiras h4:hover{
+   color: #cdcd2c;
+}
+.lojas-parceiras img{
+    width: 170px;
+}
+
+
+.rodape-prime{
+    background-color: #0e0e0e9c;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+.rodape-prime #leste{
+    color: #3c9151;
+    font-size: 18px;
+}
+.rodape-prime #code{
+    color: #cdcd2c;
+    padding-left: 200px;
+}
